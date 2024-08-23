@@ -1,0 +1,2 @@
+Speed : Similar to the overlapping Moore machine, an overlapping Mealy machine allows state transitions and output changes at any point in the clock cycle. This design may offer flexibility and potentially faster operation compared to non-overlapping Mealy machines.
+Reliability : The dependency on both current state and inputs for output could make the design more intricate, and careful consideration must be given to ensure reliable operation.
