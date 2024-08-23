@@ -1,0 +1,2 @@
+Speed : In a non-overlapping Moore machine, state transitions and output changes occur at non-overlapping edges of the clock signal. This design can simplify the implementation and reduce the likelihood of glitches but may limit the speed at which the circuit can operate.
+Reliability : This design can be relatively simple, as state transitions and output changes are synchronized with non-overlapping clock edges. This makes it more reliable than Overlapping Moore Sequence Detectors. 
