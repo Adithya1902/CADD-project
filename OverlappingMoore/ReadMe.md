@@ -1,0 +1,3 @@
+A Moore sequence detector is a type of finite state machine where the outputs depend only on the current state and not on the inputs. An overlapping Moore sequence detector is designed to identify specific sequences of input symbols in a continuous stream, allowing for the detection of new occurrences before the completion of the previous ones.
+In a sequence detector that allows overlap, the final bits of one sequence can be the start of another sequence. For example will be an 1010 sequence detector. It raises an output of 1 when the last 4 binary bits received are 1010.
+For this project we will be assuming a sequence detector that detects the number 1010.

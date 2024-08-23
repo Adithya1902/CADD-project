@@ -1,0 +1,2 @@
+Speed : In an overlapping Moore machine, state transitions and output changes can occur at any point in the clock cycle, including overlapping edges. This design potentially allows for faster operation compared to non-overlapping designs because it allows for more flexibility in the timing of state changes.
+Reliability : The increased flexibility might introduce challenges in terms of design complexity, and it could be more susceptible to timing-related issues.
