@@ -1,0 +1,2 @@
+Speed : Similar to the non-overlapping Moore machine, in a non-overlapping Mealy machine, state transitions and output changes happen at non-overlapping edges of the clock signal. This design may also simplify the circuit but might have speed limitations.
+Reliability : Similar to non-overlapping Moore, it can be straightforward to implement and understand. It might be limited in terms of speed due to non-overlapping transitions, and the dependency of output on both current state and inputs could introduce additional complexity.
